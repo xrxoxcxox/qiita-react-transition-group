@@ -5,7 +5,7 @@
 .App {
   background-color: #282c34;
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 2fr 1fr;
   min-height: 100vh;
   text-align: center;
 }
