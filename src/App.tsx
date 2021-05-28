@@ -3,7 +3,7 @@ import "./App.css";
 import { css, keyframes } from "@emotion/react";
 import { CSSTransition } from "react-transition-group";
 
-function App() {
+function App(): JSX.Element {
   const [open, setOpen] = useState(false);
   const toggleOpen = () => setOpen((currentState) => !currentState);
 
